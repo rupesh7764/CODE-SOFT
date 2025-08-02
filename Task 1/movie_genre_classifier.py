@@ -10,7 +10,7 @@ data = pd.read_csv('movies.csv')
 
 # Preprocessing
 X = data['plot']
-y = data['genre']
+y = data['genre'] 
 
 # Split data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
